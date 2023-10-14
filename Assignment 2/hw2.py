@@ -48,19 +48,16 @@ def aStar(graph, start, end, w=0):
     distances = {node: float('inf') for node in graph}
     distances[start] = 0
     # Visited nodes
-    relaxed_nodes = [(0, start)]
+    relaxed_nodes = [(0, 0,start)]
+    current_node = start
     
-    while len(relaxed_nodes):
+    while len(relaxed_nodes) and current_node!=end:
         # pop element with lowest f
-        current_distance, current_node = min(relaxed_nodes, key=lambda x: x[0])
-        relaxed_nodes.remove((current_distance, current_node)) 
-        
-        # found the final node
-        if(current_node == end): 
-            break
-        
+        current_distance, current_f, current_node = relaxed_nodes.pop(0)
         # get neighbor of the current node
-        for neighbor, weight in graph[current_node]: 
+        i = 0
+        while i<len(graph[current_node]) and current_node!=end:
+            neighbor, weight = graph[current_node][i]
             neighbor = int(neighbor)
             neighbor_g = distances[current_node] + weight
             c1 = [coords_x[end-1], coords_y[end-1]]
@@ -69,15 +66,16 @@ def aStar(graph, start, end, w=0):
             neighbor_f = neighbor_g + w*neighbor_h
 
             # if distance is less than the distance of the neighbor we have in the dict, update
-            if neighbor_g < distances[neighbor]: 
+            if neighbor_g < distances[neighbor]:
                 distances[neighbor] = neighbor_g
-                relaxed_nodes.append((neighbor_f, neighbor))
+                relaxed_nodes.append((neighbor_g, neighbor_f, neighbor))
                 
             short_x1  = coords_x[int(current_node)-1]
             short_x2  = coords_x[int(neighbor)-1]
             short_y1  = coords_y[int(current_node)-1]
             short_y2  = coords_y[int(neighbor)-1]
             plt.plot([short_x1, short_x2], [short_y1, short_y2], c="lightgrey", zorder=1)
+            
             if(w==0):
                 plt.title("Dijkstras Algorithm - Weight: {}, Iterations: {}".format(w,x))
             elif(w==1):
@@ -85,19 +83,24 @@ def aStar(graph, start, end, w=0):
             else:
                 plt.title("Weighted A-Star Algorithm - Weight: {}, Iterations: {}".format(w,x))
             x+=1
-            relaxed_nodes.sort(key=lambda x: x[0])
+            i+=1
+            relaxed_nodes.sort(key=lambda x: x[1])
+            
             # save graphs to image
-            # plt.savefig('hw1_{}_{}.png'.format(w,x)) 
+            # plt.savefig('hw1_{}_{}.png'.format(w,x))
         
     path = []
     current_node = end
     # traverse and check the smallest path from end to start
     while current_node != start:    
         path.insert(0, current_node)
-        for neighbor, weight in graph[current_node]:
+        i = 0
+        while i<len(graph[current_node]):
+            neighbor, weight = graph[current_node][i]
             if distances[current_node] == distances[neighbor] + weight:
                 current_node = neighbor
                 break
+            i+=1
     
     path.insert(0, start)
     return path, distances, x
