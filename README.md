@@ -66,7 +66,7 @@ Output of the algorithm:
 
 <img src="RRT and RRT-Star Algorithm/RRT Output.gif" alt="RRT Algorithm" width="700" height="466"/>
 
-<img src="A-Star%20Algorithm/rrt.png" alt="RRT Algorithm" width="1000" height="666"/>
+<img src="RRT and RRT-Star Algorithm/rrt.png" alt="RRT Algorithm" width="1000" height="666"/>
 
 *Caption: A-Star Algorithm*
 
