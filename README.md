@@ -34,4 +34,7 @@ Output of the algorithm:
 
 ![Dijkstra's Algorithm](Dijkstra's%20Algorithm/dijkstras.png)
 
+<img src="Dijkstra's%20Algorithm/dijkstras.png" alt="Dijkstra's Algorithm" width="700" height="469"/>
+
+
 *Caption: Dijkstra's Algorithm*
