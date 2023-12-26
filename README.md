@@ -68,10 +68,6 @@ Output of RRT algorithm:
 
 <img src="RRT and RRT-Star Algorithm/rrt.png" alt="RRT Algorithm" width="1000" height="666"/>
 
-*Caption: RRT Algorithm*
-
 Output of RRT-Star algorithm:
 
 <img src="RRT and RRT-Star Algorithm/RRT-Star Output.gif" alt="RRT Algorithm" width="600" height="340"/>
-
-*Caption: RRT-Star Algorithm*
