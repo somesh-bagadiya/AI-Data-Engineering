@@ -8,7 +8,7 @@
 
 ## Introduction
 
-This repository contains implementations of path finding algorithms like Dijkstra's, A-Star, RRT and RRT Star.
+This repository contains implementations of path-finding algorithms like Dijkstra's, A-Star, RRT, and RRT Star.
 
 ## Prerequisites
 
@@ -28,3 +28,8 @@ Visit the folder dedicated to each algorithm and review the associated Python co
 
 Dijkstra's algorithm, named after computer scientist Edsger Dijkstra, is a fundamental pathfinding algorithm widely used in computer science and network routing. Designed to find the shortest path between two nodes in a weighted graph, the algorithm traverses the graph iteratively, assigning tentative distances to all nodes and continually updating them as it discovers shorter paths. By the end of its execution, Dijkstra's algorithm provides the shortest path from a specified source node to all other nodes in the graph. Notably efficient for non-negative edge weights, Dijkstra's algorithm has applications in various fields, including transportation networks, telecommunications, and computer networking.
 
+Output of the algorithm:
+
+![Dijkstra's Algorithm](Dijkstra's%20Algorithm/Dijkstra's%20Output.gif)
+
+*Caption: Dijkstra's Algorithm*
