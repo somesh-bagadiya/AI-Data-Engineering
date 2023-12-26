@@ -70,4 +70,4 @@ Output of RRT algorithm:
 
 Output of RRT-Star algorithm:
 
-<img src="RRT and RRT-Star Algorithm/RRT-Star Output.gif" alt="RRT Algorithm" width="600" height="340"/>
+<img src="RRT and RRT-Star Algorithm/RRT-Star Output.gif" alt="RRT Algorithm" width="700" height="400"/>
