@@ -43,11 +43,30 @@ A* (pronounced "A-star") is a widely used pathfinding algorithm in computer scie
 Weighted A* is a variant of the A* algorithm that introduces the concept of edge weights. While A* traditionally assumes equal costs for all edges, Weighted A* assigns different weights to edges, allowing for more nuanced and realistic representations of real-world scenarios. This modification provides greater flexibility in pathfinding, as it accommodates varying degrees of cost associated with traversing different edges.
 
 Both A* and Weighted A* have found applications in diverse fields, including robotics, video games, and network routing, due to their efficiency in finding optimal paths in complex and dynamic environments.
+
 Output of the algorithm:
 
 <img src="A-Star%20Algorithm/A-Star Output.gif" alt="A-Star Algorithm" width="700" height="466"/>
 
 <img src="A-Star%20Algorithm/A-star.png" alt="A-Star Algorithm" width="1000" height="666"/>
+
+*Caption: A-Star Algorithm*
+
+### RRT and RRT-Star Algorithm
+
+Rapidly Exploring Random Trees (RRT) and RRT* (RRT-star) are prominent algorithms in the field of robotic motion planning. Developed to efficiently navigate robots through complex environments, these algorithms are particularly effective in scenarios with high-dimensional state spaces and obstacles.
+
+RRT starts with an initial configuration and incrementally grows a tree structure by randomly sampling points in the configuration space and connecting them to the existing tree. This process rapidly explores the space, allowing the algorithm to find feasible paths quickly.
+
+RRT* improves upon RRT by introducing a rewiring step. After a new node is added to the tree, RRT* evaluates whether it can be connected to its neighbors with a lower cost. If so, the tree is rewired, optimizing the overall path. This enhancement makes RRT* more effective in refining paths and finding solutions with lower costs.
+
+Both RRT and RRT* are widely used in robotics and automation for tasks such as motion planning, obstacle avoidance, and path optimization. Their adaptability and efficiency make them valuable tools in the realm of autonomous systems.
+
+Output of the algorithm:
+
+<img src="RRT and RRT-Star Algorithm/RRT Output.gif" alt="RRT Algorithm" width="700" height="466"/>
+
+<img src="A-Star%20Algorithm/rrt.png" alt="RRT Algorithm" width="1000" height="666"/>
 
 *Caption: A-Star Algorithm*
 
