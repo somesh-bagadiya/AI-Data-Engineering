@@ -32,4 +32,6 @@ Output of the algorithm:
 
 ![Dijkstra's Algorithm](Dijkstra's%20Algorithm/Dijkstra's%20Output.gif)
 
+![Dijkstra's Algorithm](Dijkstra's%20Algorithm/dijkstras.png)
+
 *Caption: Dijkstra's Algorithm*
