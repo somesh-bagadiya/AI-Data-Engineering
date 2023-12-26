@@ -45,8 +45,7 @@ Weighted A* is a variant of the A* algorithm that introduces the concept of edge
 Both A* and Weighted A* have found applications in diverse fields, including robotics, video games, and network routing, due to their efficiency in finding optimal paths in complex and dynamic environments.
 Output of the algorithm:
 
-![A-Star Algorithm](A-Star%20Algorithm/A-Star%20Output.gif)
-<img src="A-Star%20Algorithm/A-Star Output.gif" alt="A-Star Algorithm" width="1000" height="666"/>
+<img src="A-Star%20Algorithm/A-Star Output.gif" alt="A-Star Algorithm" width="700" height="466"/>
 
 <img src="A-Star%20Algorithm/A-star.png" alt="A-Star Algorithm" width="1000" height="666"/>
 
