@@ -62,11 +62,16 @@ RRT* improves upon RRT by introducing a rewiring step. After a new node is added
 
 Both RRT and RRT* are widely used in robotics and automation for tasks such as motion planning, obstacle avoidance, and path optimization. Their adaptability and efficiency make them valuable tools in the realm of autonomous systems.
 
-Output of the algorithm:
+Output of RRT algorithm:
 
 <img src="RRT and RRT-Star Algorithm/RRT Output.gif" alt="RRT Algorithm" width="700" height="466"/>
 
 <img src="RRT and RRT-Star Algorithm/rrt.png" alt="RRT Algorithm" width="1000" height="666"/>
 
-*Caption: A-Star Algorithm*
+*Caption: RRT Algorithm*
 
+Output of RRT-Star algorithm:
+
+<img src="RRT and RRT-Star Algorithm/RRT-Star Output.gif" alt="RRT Algorithm" width="500" height="283"/>
+
+*Caption: RRT-Star Algorithm*
