@@ -32,4 +32,22 @@ Output of the algorithm:
 
 ![Dijkstra's Algorithm](Dijkstra's%20Algorithm/Dijkstra's%20Output.gif)
 
+<img src="Dijkstra's%20Algorithm/dijkstras.png" alt="Dijkstra's Algorithm" width="700" height="469"/>
+
 *Caption: Dijkstra's Algorithm*
+
+### A-Star Algorithm
+
+A* (pronounced "A-star") is a widely used pathfinding algorithm in computer science, commonly employed to find the shortest path between two points in a graph. Developed by Peter Hart, Nils Nilsson, and Bertram Raphael in 1968, A* combines the advantages of both Dijkstra's algorithm and greedy best-first search. It intelligently explores the graph by considering both the cost incurred so far and an estimated cost to reach the goal, determined using a heuristic function.
+
+Weighted A* is a variant of the A* algorithm that introduces the concept of edge weights. While A* traditionally assumes equal costs for all edges, Weighted A* assigns different weights to edges, allowing for more nuanced and realistic representations of real-world scenarios. This modification provides greater flexibility in pathfinding, as it accommodates varying degrees of cost associated with traversing different edges.
+
+Both A* and Weighted A* have found applications in diverse fields, including robotics, video games, and network routing, due to their efficiency in finding optimal paths in complex and dynamic environments.
+Output of the algorithm:
+
+![A-Star Algorithm](A-Star%20Algorithm/A-Star%20Output.gif)
+
+<img src="A-Star%20Algorithm/A-star.png" alt="Dijkstra's Algorithm" width="700" height="469"/>
+
+*Caption: Dijkstra's Algorithm*
+
