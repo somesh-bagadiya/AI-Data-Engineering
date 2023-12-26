@@ -46,8 +46,9 @@ Both A* and Weighted A* have found applications in diverse fields, including rob
 Output of the algorithm:
 
 ![A-Star Algorithm](A-Star%20Algorithm/A-Star%20Output.gif)
+<img src="A-Star%20Algorithm/A-Star Output.gif" alt="A-Star Algorithm" width="1000" height="666"/>
 
-<img src="A-Star%20Algorithm/A-star.png" alt="Dijkstra's Algorithm" width="1000" height="666"/>
+<img src="A-Star%20Algorithm/A-star.png" alt="A-Star Algorithm" width="1000" height="666"/>
 
-*Caption: Dijkstra's Algorithm*
+*Caption: A-Star Algorithm*
 
