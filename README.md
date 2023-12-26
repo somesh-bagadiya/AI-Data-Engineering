@@ -47,7 +47,7 @@ Output of the algorithm:
 
 ![A-Star Algorithm](A-Star%20Algorithm/A-Star%20Output.gif)
 
-<img src="A-Star%20Algorithm/A-star.png" alt="Dijkstra's Algorithm" width="700" height="469"/>
+<img src="A-Star%20Algorithm/A-star.png" alt="Dijkstra's Algorithm" width="1000" height="666"/>
 
 *Caption: Dijkstra's Algorithm*
 
